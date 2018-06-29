@@ -1,17 +1,20 @@
 // ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        http://*/*
-// @grant        none
+// @name         Auto Discovery Queue For Steam
+// @namespace    https://github.com/lcsvcn/auto-steam-discovery-queue/
+// @version      1.0.0
+// @description  This script will automatically click through your discovery queue so you can get a sale card.
+// @author       lcsvcn
+// @match        *://store.steampowered.com/app/*
+// @match        *://store.steampowered.com/agecheck/app/*
+// @match        *://store.steampowered.com/explore/
+// @updateURL    https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
+// @downloadURL  https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    console.log('Steam Auto Queue Loaded - Will try to click Next automatically...');
+    console.log('Auto Discovery Queue For Steam is running! :)');
     
 	try {
         if(window.location.pathname.indexOf('/explore') > -1) {
@@ -23,6 +26,6 @@
         }
 	}
 	catch(err) {
-		console.log('Error clicking next.');
+		console.log('Error on auto exec...');
 	}
 })();
