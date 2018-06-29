@@ -23,7 +23,7 @@
         } else if (window.location.pathname.indexOf('/agecheck') > -1) {
             document.querySelector('.btnv6_blue_hoverfade.btn_small.btn_next_in_queue_trigger span').click();
         } else {
-            $J('#next_in_queue_form').submit();
+            document.querySelector('.next_in_queue_content span').click();
         }
 	}
 	catch(err) {
