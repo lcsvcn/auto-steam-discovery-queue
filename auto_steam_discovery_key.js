@@ -7,8 +7,8 @@
 // @match        *://store.steampowered.com/app/*
 // @match        *://store.steampowered.com/agecheck/app/*
 // @match        *://store.steampowered.com/explore/
-// @updateURL    https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
-// @downloadURL  https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
+// @updateURL    https://github.com/lcsvcn/auto-steam-discovery-queue/blob/master/auto_steam_discovery_key.js
+// @downloadURL  https://github.com/lcsvcn/auto-steam-discovery-queue/blob/master/auto_steam_discovery_key.js
 // @grant        none
 // ==/UserScript==
 
