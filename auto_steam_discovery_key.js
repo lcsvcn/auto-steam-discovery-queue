@@ -9,6 +9,7 @@
 // @match        *://store.steampowered.com/explore/
 // @updateURL    https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
 // @downloadURL  https://raw.githubusercontent.com/FiveElementNinja/Steam-Auto-Queue/master/auto_steam_discovery_key.js
+// @grant        none
 // ==/UserScript==
 
 (function() {
