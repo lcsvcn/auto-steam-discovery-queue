@@ -14,19 +14,16 @@
 
 (function() {
     'use strict';
-
-    console.log('Auto Discovery Queue For Steam is running! :)');
-    
+     console.log('Auto Discovery Queue For Steam is running! :)');
 	try {
-        if(window.location.pathname.indexOf('/explore') > -1) {
-            document.querySelector('.btnv6_lightblue_blue.btn_medium span').click();
-        } else if (window.location.pathname.indexOf('/agecheck') > -1) {
-            document.querySelector('.btnv6_blue_hoverfade.btn_small.btn_next_in_queue_trigger span').click();
-        } else {
-            document.querySelector('.next_in_queue_content span').click();
-        }
-	}
-	catch(err) {
+		if(window.location.pathname.indexOf('/explore') > -1) {
+		    document.querySelector('.btnv6_lightblue_blue.btn_medium span').click();
+		} else if (window.location.pathname.indexOf('/agecheck') > -1) {
+		    document.querySelector('.btnv6_blue_hoverfade.btn_small.btn_next_in_queue_trigger span').click();
+		} else {
+		    document.querySelector('.next_in_queue_content span').click();
+		}
+	} catch(err) {
 		console.log('Error on auto exec...');
 	}
 })();
