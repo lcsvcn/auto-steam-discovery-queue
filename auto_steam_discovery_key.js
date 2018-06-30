@@ -4,7 +4,7 @@
 //
 // @author       lcsvcn
 // @namespace    https://github.com/lcsvcn
-// @downloadURL  https://raw.githubusercontent.com/lcsvcn/auto-steam-discovery-queue/master/auto_steam_discovery_key.js
+// @downloadURL  https://github.com/lcsvcn/auto-steam-discovery-queue/raw/master/auto_steam_discovery_key.js
 //
 // @license      MIT License
 // @copyright    Copyright (C) 2018, by Lucas V C Nicolau
