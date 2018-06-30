@@ -1,17 +1,24 @@
 // ==UserScript==
 // @name         Auto Discovery Queue For Steam
+// @description  This script will automatically click through your discovery queue so you can get a sale card.
+//
+// @author       lcsvcn
 // @namespace    https://github.com/lcsvcn
 // @downloadURL  https://github.com/lcsvcn/auto-steam-discovery-queue/raw/master/auto_steam_discovery_key.js
-// @version      1.0.1
-// @description  This script will automatically click through your discovery queue so you can get a sale card.
+//
 // @license      MIT License
 // @copyright    Copyright (C) 2018, by Lucas V C Nicolau
-// @author       lcsvcn
+//
 // @match        *://store.steampowered.com/app/*
 // @match        *://store.steampowered.com/agecheck/app/*
 // @match        *://store.steampowered.com/explore/
+//
+// @version      1.0.1
 // @updateURL    https://github.com/lcsvcn/auto-steam-discovery-queue/raw/master/auto_steam_discovery_key.js
+//
+// @unwrap
 // @grant        none
+//
 // ==/UserScript==
 
 /**
