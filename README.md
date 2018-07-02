@@ -19,5 +19,7 @@ It will work 4 ever on Steam Discovery Queue?
 It will work 4 ever, as long as the steam site is not changed. In case of any alteration of the css in this pages, 
 it might not work anymore, but probably I will made a new one that works.
 
+Observation: Depending of you steam language the stop will not work. To fix put the word that means tomorrow or put the steam in english, I'll try to find a generic aprouch to that in the future.
+
 IF it is not working anymore or you find any bugs on the script send an e-mail for me at lcs.vcn@gmail.com 
 with the tag  [auto-steam-discovery-queue] at subject field. Thanks. :)
