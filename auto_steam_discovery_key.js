@@ -51,7 +51,7 @@
 	try {
         if(window.location.pathname.indexOf('/explore') > -1) {
             var stop = document.querySelector('.subtext').innerHTML;
-            if(stop === "Volte a explorar a sua lista de descobrimento amanhã para ganhar mais cartas!") {
+            if(stop.stop.indexOf('tomorrow') > -1) {
                  console.log('All Cards From Today Farmed ! Reload automatico em 12h...');
                  setTimeout(function(){ location.reload(); }, 12*60*60*1000);
             } else {
